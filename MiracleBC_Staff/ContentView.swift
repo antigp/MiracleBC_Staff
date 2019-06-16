@@ -7,12 +7,25 @@
 //
 
 import SwiftUI
+import Combine
 
 struct ContentView : View {
+    @State var image: UIImage?
+    @State var lastDate: Date?
+    @State var skipFirstFrames: Int = 0
+    
     var body: some View {
-        Text("Hello World")
+        Group {
+            if self.image != nil {
+                UserInfoView(image: image)
+            } else {
+                VisionView(image: $image,  lastDate: $lastDate, skipFirstFrames: $skipFirstFrames)
+            }
+        }
+        
     }
 }
+
 
 #if DEBUG
 struct ContentView_Previews : PreviewProvider {

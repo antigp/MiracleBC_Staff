@@ -1,0 +1,47 @@
+PODS:
+  - Alamofire (4.8.2)
+  - Moya (12.0.1):
+    - Moya/Core (= 12.0.1)
+  - Moya-ObjectMapper (2.8):
+    - Moya-ObjectMapper/Core (= 2.8)
+  - Moya-ObjectMapper/Core (2.8):
+    - Moya (~> 12.0)
+    - ObjectMapper (~> 3.4)
+  - Moya/Core (12.0.1):
+    - Alamofire (~> 4.1)
+    - Result (~> 4.0)
+  - ObjectMapper (3.4.2)
+  - Result (4.1.0)
+
+DEPENDENCIES:
+  - Moya
+  - Moya-ObjectMapper (from `https://github.com/bmoliveira/Moya-ObjectMapper.git`, branch `master`)
+  - ObjectMapper
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - Moya
+    - ObjectMapper
+    - Result
+
+EXTERNAL SOURCES:
+  Moya-ObjectMapper:
+    :branch: master
+    :git: https://github.com/bmoliveira/Moya-ObjectMapper.git
+
+CHECKOUT OPTIONS:
+  Moya-ObjectMapper:
+    :commit: 7deadd2621af5812ab458707490b6bfe8015fc2b
+    :git: https://github.com/bmoliveira/Moya-ObjectMapper.git
+
+SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  Moya: cf730b3cd9e005401ef37a85143aa141a12fd38f
+  Moya-ObjectMapper: c514b5eafcfd5e260f85f7a5bf66895a217e2b37
+  ObjectMapper: 0d4402610f4e468903ae64629eec4784531e5c51
+  Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
+
+PODFILE CHECKSUM: 7eafe59dcf4e0bca60c476bfef06bdc1f8958895
+
+COCOAPODS: 1.5.3

@@ -7,15 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4432026522B5BE740091E78F /* Moya.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4432026422B5BE740091E78F /* Moya.swift */; };
 		44AE9A9822B5A7A6004789FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AE9A9722B5A7A6004789FE /* AppDelegate.swift */; };
 		44AE9A9A22B5A7A6004789FE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AE9A9922B5A7A6004789FE /* SceneDelegate.swift */; };
 		44AE9A9C22B5A7A6004789FE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AE9A9B22B5A7A6004789FE /* ContentView.swift */; };
 		44AE9A9E22B5A7B0004789FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44AE9A9D22B5A7B0004789FE /* Assets.xcassets */; };
 		44AE9AA122B5A7B0004789FE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44AE9AA022B5A7B0004789FE /* Preview Assets.xcassets */; };
 		44AE9AA422B5A7B0004789FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44AE9AA222B5A7B0004789FE /* LaunchScreen.storyboard */; };
+		44AE9AAC22B5A807004789FE /* VisionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AE9AAB22B5A807004789FE /* VisionView.swift */; };
+		44AE9AAE22B5BDE8004789FE /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AE9AAD22B5BDE8004789FE /* UserInfo.swift */; };
+		CDCCC1D80D8E9410B0EFD9A0 /* Pods_MiracleBC_Staff.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCC4E1B3AC88096CB0C19571 /* Pods_MiracleBC_Staff.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2A85CE8F6C1EFD87A870FF51 /* Pods-MiracleBC_Staff.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiracleBC_Staff.release.xcconfig"; path = "Pods/Target Support Files/Pods-MiracleBC_Staff/Pods-MiracleBC_Staff.release.xcconfig"; sourceTree = "<group>"; };
+		4432026422B5BE740091E78F /* Moya.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Moya.swift; sourceTree = "<group>"; };
 		44AE9A9422B5A7A6004789FE /* MiracleBC_Staff.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiracleBC_Staff.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44AE9A9722B5A7A6004789FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		44AE9A9922B5A7A6004789FE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +30,10 @@
 		44AE9AA022B5A7B0004789FE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		44AE9AA322B5A7B0004789FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		44AE9AA522B5A7B0004789FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44AE9AAB22B5A807004789FE /* VisionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionView.swift; sourceTree = "<group>"; };
+		44AE9AAD22B5BDE8004789FE /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		92F186BD855D1A462232EFE0 /* Pods-MiracleBC_Staff.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiracleBC_Staff.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MiracleBC_Staff/Pods-MiracleBC_Staff.debug.xcconfig"; sourceTree = "<group>"; };
+		FCC4E1B3AC88096CB0C19571 /* Pods_MiracleBC_Staff.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MiracleBC_Staff.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDCCC1D80D8E9410B0EFD9A0 /* Pods_MiracleBC_Staff.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +53,8 @@
 			children = (
 				44AE9A9622B5A7A6004789FE /* MiracleBC_Staff */,
 				44AE9A9522B5A7A6004789FE /* Products */,
+				F0B1130EDDA7135ECFA90BF3 /* Pods */,
+				C4113F2D906672433AA4A95C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,11 +71,14 @@
 			children = (
 				44AE9A9722B5A7A6004789FE /* AppDelegate.swift */,
 				44AE9A9922B5A7A6004789FE /* SceneDelegate.swift */,
+				4432026422B5BE740091E78F /* Moya.swift */,
 				44AE9A9B22B5A7A6004789FE /* ContentView.swift */,
 				44AE9A9D22B5A7B0004789FE /* Assets.xcassets */,
 				44AE9AA222B5A7B0004789FE /* LaunchScreen.storyboard */,
 				44AE9AA522B5A7B0004789FE /* Info.plist */,
 				44AE9A9F22B5A7B0004789FE /* Preview Content */,
+				44AE9AAB22B5A807004789FE /* VisionView.swift */,
+				44AE9AAD22B5BDE8004789FE /* UserInfo.swift */,
 			);
 			path = MiracleBC_Staff;
 			sourceTree = "<group>";
@@ -75,6 +91,23 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		C4113F2D906672433AA4A95C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FCC4E1B3AC88096CB0C19571 /* Pods_MiracleBC_Staff.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F0B1130EDDA7135ECFA90BF3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				92F186BD855D1A462232EFE0 /* Pods-MiracleBC_Staff.debug.xcconfig */,
+				2A85CE8F6C1EFD87A870FF51 /* Pods-MiracleBC_Staff.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -82,9 +115,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 44AE9AA822B5A7B0004789FE /* Build configuration list for PBXNativeTarget "MiracleBC_Staff" */;
 			buildPhases = (
+				29FE1EAA91E3B705FE203654 /* [CP] Check Pods Manifest.lock */,
 				44AE9A9022B5A7A6004789FE /* Sources */,
 				44AE9A9122B5A7A6004789FE /* Frameworks */,
 				44AE9A9222B5A7A6004789FE /* Resources */,
+				04468F4EFCE9FC8BC55929F3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -141,13 +176,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		04468F4EFCE9FC8BC55929F3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MiracleBC_Staff/Pods-MiracleBC_Staff-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya-ObjectMapper/Moya_ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya_ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MiracleBC_Staff/Pods-MiracleBC_Staff-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		29FE1EAA91E3B705FE203654 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MiracleBC_Staff-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		44AE9A9022B5A7A6004789FE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				44AE9A9822B5A7A6004789FE /* AppDelegate.swift in Sources */,
+				4432026522B5BE740091E78F /* Moya.swift in Sources */,
 				44AE9A9A22B5A7A6004789FE /* SceneDelegate.swift in Sources */,
+				44AE9AAC22B5A807004789FE /* VisionView.swift in Sources */,
+				44AE9AAE22B5BDE8004789FE /* UserInfo.swift in Sources */,
 				44AE9A9C22B5A7A6004789FE /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +375,7 @@
 		};
 		44AE9AA922B5A7B0004789FE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92F186BD855D1A462232EFE0 /* Pods-MiracleBC_Staff.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -302,6 +396,7 @@
 		};
 		44AE9AAA22B5A7B0004789FE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A85CE8F6C1EFD87A870FF51 /* Pods-MiracleBC_Staff.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
